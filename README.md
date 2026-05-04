@@ -1,8 +1,11 @@
-# Lab 5 - Starter
-Make sure you make a PR to your own repo's main and not the class' repo!! Otherwise you will lose points!!
+## Authors
+Jordan Tran
+
+## Github Pages
+- [Expose](https://jbtran05.github.io/Lab5_Starter/expose.html)
+- [Explore](https://jbtran05.github.io/Lab5_Starter/explore.html)
 
 ## Check Your Understanding
-
 1. Would you use a unit test to test the "message" feature of a messaging application? Why or why not?
 
 No, you would not use a unit test to test the "message" feature. Sending a message involves multiple components interacting together — the UI, the network, and the recipient's client. Unit tests are designed to test isolated pieces of code, not how components interact with each other, so an integration test would be more appropriate here.
